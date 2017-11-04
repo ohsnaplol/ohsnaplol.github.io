@@ -3,51 +3,131 @@
 <head>
   <meta charset="utf-8">
   <title>Marcellio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/normalize.css">
-  <link rel="stylesheet"  type="text/css" href="./assets/css/style.css"/>
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato|Muli" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Marcello Galvan</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li>Portfolio</li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="content">
-    <h2>Projects</h2>
-    <!-- My projects -->
-    <div class="flexparentproject">
-      <div class="project">
-        <h2>Melody Generator</h2>
-        <img src="./assets/img/staff.png" alt="">
-      </div>
-      <div class="project">
-        <h2>Dynamic Music</h2>
-        <img src="./assets/img/music.png" alt="">
-      </div>
-      <div class="project">
-        <h2>VR Music</h2>
-        <img src="./assets/img/visualizer.png" alt="">
-      </div>
-      <div class="project">
-        <h2>Speed Dialer Game</h2>
-        <img src="./assets/img/phone.png" alt="">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Marcello Galvan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">Portfolio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <section class="connect">
-      <h2>Connect with me</h2>
-      <hr>
-      <a href="https://github.com/ohsnaplol" target="_blank"><img class="socialMediaImg" src="./assets/img/github.png" alt="Image link to my GitHub"></a>
-      <a href="https://www.linkedin.com/in/marcellogalvan/" target="_blank"><img class="socialMediaImg" src="./assets/img/linkedin.png" alt="Image link to my LinkedIn Account"></a>
-    </section>
-  </div>
-  <footer>
-    <p>Copyright Marcello Galvan</p>
+  </nav>
+
+<!-- Page Content -->
+ <div class="container">
+
+   <!-- Page Heading -->
+   <h1 class="my-4">Page Heading
+     <small>Secondary Text</small>
+   </h1>
+
+   <div class="row">
+     <div class="col-lg-9">
+       <!-- Project One -->
+       <div class="row">
+         <div class="col-md-2">
+           <a href="#">
+             <img class="img-fluid rounded mb-3 mb-md-0" src="./assets/img/staff.png" alt="">
+           </a>
+         </div>
+         <div class="col-md-7">
+           <h3>Melody Generator</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+           <a class="btn btn-primary" href="#">View Project</a>
+         </div>
+       </div>
+       <!-- /.row -->
+       <hr>
+
+       <!-- Project Two -->
+       <div class="row">
+         <div class="col-md-2">
+           <a href="#">
+             <img class="img-fluid rounded mb-3 mb-md-0" src="./assets/img/music.png" alt="">
+           </a>
+         </div>
+         <div class="col-md-7">
+           <h3>Dynamic Music</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
+           <a class="btn btn-primary" href="#">View Project</a>
+         </div>
+       </div>
+       <!-- /.row -->
+
+       <hr>
+
+       <!-- Project Three -->
+       <div class="row">
+         <div class="col-md-2">
+           <a href="#">
+             <img class="img-fluid rounded mb-3 mb-md-0" src="./assets/img/visualizer.png" alt="">
+           </a>
+         </div>
+         <div class="col-md-7">
+           <h3>VR Music</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
+           <a class="btn btn-primary" href="#">View Project</a>
+         </div>
+       </div>
+       <!-- /.row -->
+
+       <hr>
+
+       <!-- Project Four -->
+       <div class="row">
+
+         <div class="col-md-2">
+           <a href="#">
+             <img class="img-fluid rounded mb-3 mb-md-0" src="./assets/img/phone.png" alt="">
+           </a>
+         </div>
+         <div class="col-md-7">
+           <h3>Speed Dialer Game</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
+           <a class="btn btn-primary" href="#">View Project</a>
+         </div>
+       </div>
+       <!-- /.row -->
+       <hr>
+     </div>
+     <div class="col-md-3">
+       <h3>Contact Me</h3>
+       <img src="./assets/img/github.png">
+       <img src="./assets/img/linkedin.png">
+     </div>
+   </div>
+ </div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Marcello Galvan 2017</p>
+    </div>
+    <!-- /.container -->
   </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
