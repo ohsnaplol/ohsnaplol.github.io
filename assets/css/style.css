@@ -1,186 +1,50 @@
-header {
-  background-color: teal;
-  height: auto;
-  padding: 30px 5% 30px 5%;
-  margin-bottom: 20px;
-}
+
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
 
 body {
+  padding-top: 54px;
   background-color: lightblue;
-  color: white;
-  /*font-family: Arial;*/
-  font-family: 'Lato', sans-serif;
-  box-sizing: border-box;
+}
+
+.bg-dark {
+    background-color: teal!important;
 }
 
 h1 {
-  display: inline;
-}
-
-nav {
-  float: right;
-}
-
-nav li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 10px;
-}
-
-a:hover {
-  background-color: pink;
-}
-
-p {
-  margin: 0 0 0 0;
-  font-family: 'Muli', sans-serif;
-}
-
-a {
   color: white;
 }
 
-h2 {
-  margin: 0 0 10px 0
+h3 {
+  color:white;
 }
 
-section {
-  padding: 20px;
-  background-color: white;
-  color: teal;
+p {
+  color: white;
 }
 
-footer {
-  border-top: 5px solid #687fa3;
-  padding: 30px;
-  text-align: center;
-  background-color: teal;
+/*#makemehigher {
+  height: 600px;
+}*/
+
+#freakinfooter {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
 }
 
-.project {
-  text-align: center;
-  width: 40%;
-  height: 175px;
-  border: 3px solid teal;
-  margin: 0 10px 10px 0;
-  /*padding: 20px;*/
-  background-color: white;
-  color: teal;
+.spacer {
+  height: 200px;
 }
 
-.project img {
-  width: inherit;
-}
-
-.project h2 {
-  background-color: teal;
-  color: white;
-}
-
-.flexparent {
-  display: flex;
-}
-
-.flexparentproject {
-  background-color: white;
-  padding: 20px;
-  float: left;
-  width: 70%;
-  flex-wrap: wrap;
-  /*margin: 0;*/
-  margin-right: 30px;
-  margin-bottom: 30px;
-  display: flex;
-}
-
-.mainContent {
-  width: 70%;
-  margin: 0 30px 30px 0;
-}
-
-.content {
-  margin: 0 5% 0 5%;
-}
-
-/*Connect with me window*/
-.connect {
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-  color: teal;
-  width: 25%;
-  height: 170px;
-  float: left;
-}
-
-#profilepic {
-  width: 30%;
-  float: left;
-  margin-right: 20px;
-}
-
-.socialMediaImg {
-  width: 40%;
-}
-
-@media screen  and (max-width: 980px){
-  #profilepic {
-    width: inherit;
-    margin: auto;
-    float: none;
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
   }
 }
 
-@media screen  and (max-width: 768px){
-
-  #profilepic {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    display: block;
-    width: 400px;
-  }
-
-  .mainContent {
-    width: auto;
-    margin-right: 0;
-  }
-
-  .connect {
-    width: auto;
-  }
-
-  .socialMediaImg {
-    width: 20%;
-  }
-
-  .flexparent {
-    flex-direction: column;
-  }
-
-  footer {
-    margin-top: 30px;
-    position: static;
-  }
-}
-
-@media screen and (max-width: 640px) {
-
-  header {
-    padding: 10px;
-  }
-
-  h1 {
-    display: block;
-    margin: 0;
-    text-align: center;
-  }
-
-   nav {
-     float: none;
-     text-align: center;
-   }
-}
+.pagination {
+  margin-bottom: 15px;
