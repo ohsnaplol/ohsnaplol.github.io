@@ -36,10 +36,6 @@ p {
   width: 100%;
 }
 
-.spacer {
-  height: 200px;
-}
-
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
