@@ -26,16 +26,6 @@ p {
   color: white;
 }
 
-/*#makemehigher {
-  height: 600px;
-}*/
-
-#freakinfooter {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
