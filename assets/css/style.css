@@ -23,6 +23,24 @@ p {
   color: white;
 }
 
+.links-icon {
+  color: white;
+}
+
+.links-icon:hover {
+  color: teal;
+  text-decoration: none;
+}
+
+#email-link {
+  color: white;
+  text-decoration: underline;
+}
+
+#email-link:hover {
+  color: teal;
+}
+
 .project-emoji {
   font-size: 100px;
 }
