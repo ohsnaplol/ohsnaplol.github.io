@@ -6,9 +6,8 @@
  */
 
 body {
-  padding-top: 54px;
   padding-bottom: 54px;
-  background-color: lightblue;
+  background-color: rgb(90, 121, 132);
 }
 
 .bg-dark {
